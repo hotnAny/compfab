@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/include/CompFab.h
+cmath
+-
+vector
+-
+
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/include/Mesh.h
+map
+-
+vector
+-
+fstream
+-
+../include/CompFab.h
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/include/CompFab.h
+
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/source/main.cpp
+iostream
+-
+vector
+-
+ctime
+-
+../include/CompFab.h
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/include/CompFab.h
+../include/Mesh.h
+/Users/hotnAny/Dropbox/Courses/CompFab/A1/include/Mesh.h
+

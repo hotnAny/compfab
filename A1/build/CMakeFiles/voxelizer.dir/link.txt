@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/voxelizer.dir/source/CompFab.cpp.o CMakeFiles/voxelizer.dir/source/main.cpp.o CMakeFiles/voxelizer.dir/source/Mesh.cpp.o  -o voxelizer  
